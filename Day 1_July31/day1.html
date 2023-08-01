@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beneequa Santiago Day 1</title>
+</head>
+<body>
+    <h1 id="#">Images in HTML</h1>
+    <p>Add images into a webpage</p>
+    <img src="images/grandcentral.jpg" alt="photo of grand central" width="30%">
+    <figure>
+        <img src="images/grandcentral.jpg" alt="photo of grand central" width="60%">
+        <img src="images/horizon.jpg" alt="photo of grand central" width="30%">
+        <img src="images/darknight.jpg" alt="photo of grand central" width="30%">
+        <figcaption>Picture of grandCentral</figcaption>
+        <!-- -->
+    </figure>
+    <h1 id="pictag">picture tag</h1>
+    <p>Resize the browser</p>
+    <picture>
+        <source media="(min-width:1100px)" srcset="">
+        <source media="(min-width:800px)" srcset="images/grandcentral.jpg">
+        <source media="(min-width:500px)" srcset="images/grandcentral.jpg">
+        <img src="images/thunder.jpg" alt="photo of thunder over nyc" width="30%">
+        
+    </picture>
+    <!--LINKS-->
+    <h1 id="links">Links to other sites</h1>
+    <a href="http://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer">Visit QCC website</a>
+    <p><a href="mailto:hmu@qcc.cuny.edu">Email to prof. Wu</a></p>
+    <p>Follow us</p>
+   
+    <figure>
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"></a>
+        <img src="images/linkenin.png" alt="photo of linken logo" width="20%">
+        <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"></a>
+        <img src="images/instagram.png" alt="photo of instagram logo" width="20%">
+    </figure>
+    <h1>Links to specific part of the same web page</h1>
+    <ul>
+        <li>
+            <a href="#">Top of the page</a>
+        </li>
+        <li>
+            <a href="#pictag">Picture Tag</a>
+        </li>
+        <li>
+            <a href="#links">Links</a>
+            
+        </li>
+    </ul>
+    <h1>map tag</h1>
+    <figure>
+        <img src="images/thunder.jpg" width="400px" usemap="#nyc">
+        </figure>
+        <map name="nyc">
+            <area shape="rect" coords="50px,00px,400px,400px"
+            href="https://www.macys.com/shop/womens-clothing " target="_blank">
+        
+                <area shape="rect" coords="50px,00px,400px,400px"
+                href="https://www.macys.com/shop/womens-clothing " target="_blank">
+                <area shape="circle" coords="150px,520px,80px"
+                href="https://www.macys.com/shop/handbags-accessories" target="_blank">
+                </map>
+                <hr>
+                <footer>HTML review @ Beneequa</footer>
+</body>
+</html>
