@@ -1,0 +1,86 @@
+#part2{color: crimson;}
+.part1{background-color: darkslateblue;}
+.bgp{color: cadetblue;}
+/*CSS universal selector
+*{text-align:right;}
+*/
+h2.part1, #part2, h1{
+    text-align:center;}
+/* Combinator selector */
+/*
+li a{background-color: coral;}
+div + p{background-color: yellowgreen;}
+div > p{color: brown;}
+div ~ p{color: crimson;} */
+/*attribute selectors*/
+a[href*="mailto"]{
+    background-color: cornflowerblue;
+}
+/*-- Pseudo class selectors--*/
+.qcclinks{
+    color: cyan;
+    background-color: firebrick;
+}
+.qccLink:visited{
+    background-color: darkcyan;
+}
+.qccLink:hover{
+    background-color: hotpink;
+}
+.qccLink:active{
+    background-color: aquamarine;
+
+}
+.hiddenPar{
+    color: aquamarine;
+    background-color: aqua;
+    display: none;
+}
+    .tooltipDiv:hoover .hiddenPar{
+        display: block;
+    }
+    /* -- text and font properties-- */
+    .subtitle{font-family: 'Times New Roman', Times, serif;}
+    .intro{font-family: 'Courier New', Courier, monospace;}
+    .author{font-size: 20px;
+    font-weight: 980;}
+    /* -- element properties--*/
+    .shadow{
+        width:300px;
+        height: 100px;
+        text-align: center;
+        background-color: rgb(88, 74, 139);
+        box-shadow: 20px -10px 15px blueviolet;
+    }
+    .hoverMe{
+        background-color: rgb(200, 186, 26);
+        color: rgb(22, 22, 20);
+        display: inline-block;
+        width: 30px;
+        text-align: center;
+        padding: 1em;
+        border-radius: 20px;
+    }
+    .hoverMe:hover{
+        box-shadow: 0px 0px 5px 1px greenyellow;
+    }
+    /*--cards--*/
+    .card{
+    width:300px;
+    box-shadow: 0px 0px 3px 2px burlywood, 2px 5px 3px  goldenrod;
+    border-radius: 10px;
+    overflow: hidden;}
+
+    .imgCard{width:100%;}
+    .cardInfo{text-align: center;}
+    .card:hover{box-shadow: 0px 0px 3px 1px red;}
+    /*-- box model properties--*/
+    .box{
+        background-color: aqua;
+        border: 10px orange solid;
+        margin-top: 5em;
+        margin: 2em;
+        padding-left: 3em;
+        padding: 2em;
+    }
+
