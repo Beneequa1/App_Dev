@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Beneequa Santiago</h1>
+   <script src="day4.js">
+        console.log("professor wu")
+        let animal ="cat"
+        let age ="23"
+        let bool1= true
+        let va1= ""
+        let var2 = null
+        let var3
+        // prompt method
+        let name= prompt ("Enter a name:")
+        let num1 =prompt ("Enter num 1")
+    num1= parseInt(num1)
+    let num2 =parseInt(prompt("Enter number2"))
+    // check if num1 and num2 is a number
+    let checkNum1 = isNaN(num1)
+    let checkNum2 = isNaN(num2)
+    if (checkNum1){
+        console.log("You didn't enter number 1!")
+        num1=0
+    }
+    if(checkNum2){
+        console.log("You didn't enter number 2!")
+        num2=0
+    }
+    // display value of variable
+    console.log("Number 1=",num1,"number 2 =", num2)
+    console.log("Number 1 =" + num1 +"number 2 =" +num2)
+    console.log(`Number 1 =${num1} number =${num2}`)
+
+    //--ARRAYS--//
+    let fruits =["oranges",`apples`,`peaches`]
+    console.log(`The second item in array fruits is ${friuts[1]}`)
+    let meals = [`breakfast`,[`eggs`,`bread`,`juice`],`lunch`,[`fish`,`salad`]]
+    console.log(`Original array = ${fruits}`)
+    //add values to the begginning of an array
+    fruits.unshift(`bananas`,23)
+    console.log(`Array afyer unshift method= ${fruits}`)
+    // remove the first element in an array
+    fruits.shift()
+    console.log('Array after shift method= ${fruits}')
+    //index of method
+    let findFruits = 'peaches'
+
+    
+   </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
