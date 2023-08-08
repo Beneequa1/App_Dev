@@ -83,3 +83,9 @@ function doubleNumber(number){
 }
 // when the function doubleNumber is called and the user didn't enter and argument, number as an argument, the problrm will ask the user to enter a number. The function will fully run when the  user enters an argument.
 //APP Activity- resposive web app
+
+function doubleNumber(number){
+    console.log('--example 9--')
+    number *= 0
+    return number
+}
