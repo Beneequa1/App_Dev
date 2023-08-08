@@ -6,8 +6,8 @@ for(let counter=10; counter>=0; counter--){
 console.log(`---Example 2---`)
 let initialNum =parseInt(prompt("Enter a number between 0 and 9"))
 for(initialNum;initialNum>=0; initialNum--){
-    if(initialNum%5===0){
-        console.log(`counting= ${initialNum}`)
+    console.log(`counting= ${initialNum}`)
+    if(initialNum%5===0){     
     }
 }
 console.log(`---Example 6---`)
@@ -42,18 +42,22 @@ for(let counter =5; counter>=-10; counter--){
     if(counter===3){
         continue
     }
-    else
-    console.log()
-    console.log('---Example 12---')
-    for(let y=-10; y<=10; y++){
-        if(y%2===0){
-            continue
-        }
-        else{console.log(y)
-        }
+    else{
+    console.log(`counting= ${counter}`)
     }
 }
-/*--------------------------------------------FUNCTIONS-------------------------------------*/
+console.log('---Example 12---')
+for(let y=-10; y<=10; y++){
+    if(y%2===0){
+        continue
+    }
+    else{
+        console.log(y)
+    }
+}
+/*-------------------------------------
+------------------FUNCTIONS------------
+--------------------------------------*/
 
 function printCount(){
     console.log('--Example 2--')
@@ -61,13 +65,14 @@ function printCount(){
         console.log(n)
     }
 }
+
 function greeting(name){
     console.log('--Examle 3--')
     console.log(`Hello ${name}`)
-
 }
+
 function greet(firstName, lastName){
-    console.log('--Examle 5')
+    console.log('--Examle 5---')
     console.log(`Hello ${firstName} ${lastName[0].toUpperCase()}`)
 }
 
