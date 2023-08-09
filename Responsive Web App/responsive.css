@@ -1,0 +1,22 @@
+@media screen and (min-width:400px){
+    body{background-color: gray;}
+    .title{
+        color: black;
+        text-align:center;
+    
+    }
+}
+
+@media screen and (min-width:400px){
+    body{background-color: rgb(42, 128, 165);}
+    .title{
+        text-align: center;
+        font-size: 1.5em;
+        color: black;
+    } 
+    .imgcardContent p:nth-child(1){
+        text-decoration: solid;        
+        font-size: 1.1em;
+        font-weight: bold;
+    } 
+}
